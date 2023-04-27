@@ -1,17 +1,17 @@
 # README-Generator
- ##Description
+ ## Description
   This is a README Generator that helps us to quickly create a professional README for a new project. The generator collects user input and create a Readme markdown with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-  <source src="Untitled_ Apr 26, 2023 10_32 PM.webm" type="video/webm">
+  [Video Demonstration](<source src="Untitled_ Apr 26, 2023 10_32 PM.webm" type="video/webm">)
 
-  ##Table Of Contents
+  ## Table Of Contents
   -[Usage](#usage)
   -[Installation](#installation)
   -[license](#license)
   -[Contributors](#contributors)
   -[Questions](#Questions)
 
-  ##Usage
+  ## Usage
   
     GIVEN a command-line application that accepts user input
     WHEN I am prompted for information about my application repository
@@ -29,17 +29,17 @@
     WHEN I click on the links in the Table of Contents 
     THEN I am taken to the corresponding section of the README
 
-  ##Installation
+  ## Installation
   To run this project we need to install Node.js and inquirer dependencies.
 
-  ##License
-  ISC
+  ## License
+  ISC License
 
-  ##Contributors
+  ## Contributors
   [Reshma Paul]
 
-  ##Questions
-  If you have any Questions, 
+  ## Questions
+  If you have any Questions,(\br)
   Contact me at snowley777@gmail.com
 
 
