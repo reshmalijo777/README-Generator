@@ -5,7 +5,7 @@
   [Video Demonstration] (https://user-images.githubusercontent.com/128992593/234772101-89e73dc7-4630-423a-9c48-9ffdbdb58a94.webm)
 
   ## Table Of Contents
-  [-Usage](#usage)
+   [Usage](#usage)
   -[Installation](#installation)
   -[License](#license)
   -[Contributors](#contributors)
