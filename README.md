@@ -3,7 +3,8 @@
   This is a README Generator that helps us to quickly create a professional README for a new project. The generator collects user input and create a Readme markdown with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
   [Video Demonstration]
-  <source src="../Untitled_ Apr 26, 2023 10_32 PM.webm" type="video/webm">
+  (<source src="../Untitled_ Apr 26, 2023 10_32 PM.webm" type="video/webm">)
+  
 
   ## Table Of Contents
   -[Usage](#usage)
@@ -40,7 +41,7 @@
   Reshma Paul
 
   ## Questions
-  If you have any Questions,(\br)
+  If you have any Questions,
   Contact me at snowley777@gmail.com
 
 
