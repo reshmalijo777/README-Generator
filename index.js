@@ -1,8 +1,5 @@
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-const fs = require("fs");
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
+const fs = require('fs');
 const generateMarkdown= require("./utils/generateMarkdown")
 
 const questions = [
@@ -14,7 +11,7 @@ const questions = [
     },
     {
        type:'input',
-       message:'Give a description about your project',
+       message:'What is this project all about?',
        name:'description',
     },
     {
@@ -23,12 +20,12 @@ const questions = [
         name:'usage',
     },
     {
-        type:'Installation',
-        message:'How do you install your application?',
+        type:'installation',
+        message:'What are required to install for this application?',
         name:'installation',
     } ,
     {
-        type:'List',
+        type:'list',
         message:'What type of license you use for your project',
         name:'license',
         choices:['MIT','Apache','ISC'],
@@ -36,7 +33,7 @@ const questions = [
     {
         type:'input',
         message:'who are the contributers of this project?',
-        name:'contributers',
+        name:'contributors',
 
     },
     {
@@ -49,18 +46,27 @@ const questions = [
         message:'what is your email adress?',
         name:'email',
     },
-    
-
-
-
-    
+    {
+        type:'input',
+        message:'what is the name of this file?',
+        name:'fileName'
+    }
+     
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.appendFile(`${fileName}.md`, generateMarkdown(data), (err)=>
+    err? console.log(err):console.log("README file Generated")
+    )}
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+function init() {
+    inquirer
+    .prompt (questions)
+    .then ((response)=>{
+        writeToFile(response.fileName, response);
+    })
+    .catch(err=>{
+        console.log(err)
+    });
+}
+    init();
