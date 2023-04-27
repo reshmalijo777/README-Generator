@@ -1,16 +1,20 @@
 # README-Generator
+
  ## Description
+
   This is a README Generator that helps us to quickly create a professional README for a new project. The generator collects user input and create a Readme markdown with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-  [Video Demonstration] (../Untitled_ Apr 26, 2023 10_32 PM.webm)
+  - [Video Demonstration] 
+
   
 
   ## Table Of Contents
-  [Usage](#usage)
-  [Installation](#installation)
-  [License](#license)
-  [Contributors](#contributors)
-  [Questions](#Questions)
+
+  * [Usage](#usage)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Questions](#Questions)
 
   ## Usage
   
@@ -31,15 +35,19 @@
     THEN I am taken to the corresponding section of the README
 
   ## Installation
-  To run this project we need to install Node.js and inquirer dependencies.
+
+  To run this project we need to install Node.js. Then create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. We need `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
 
   ## License
+
   ISC License
 
   ## Contributors
+
   -Reshma Paul
 
   ## Questions
+  
   If you have any Questions,
   Contact me at snowley777@gmail.com
 
