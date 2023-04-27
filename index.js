@@ -28,11 +28,11 @@ const questions = [
         type:'list',
         message:'What type of license you use for your project',
         name:'license',
-        choices:['MIT','Apache','ISC'],
+        choices:['MIT License','Apache License','ISC License'],
     },
     {
         type:'input',
-        message:'who are the contributers of this project?',
+        message:'who are the contributors of this project?',
         name:'contributors',
 
     },
@@ -65,8 +65,5 @@ function init() {
     .then ((response)=>{
         writeToFile(response.fileName, response);
     })
-    .catch(err=>{
-        console.log(err)
-    });
 }
     init();
