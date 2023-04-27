@@ -5,17 +5,17 @@
   [Video Demonstration] (https://user-images.githubusercontent.com/128992593/234772101-89e73dc7-4630-423a-9c48-9ffdbdb58a94.webm)
 
   ## Table Of Contents
-  [Usage](#usage)
-  [Installation](#installation)
-  [License](#license)
-  [Contributors](#contributors)
-  [Questions](#Questions)
+  [Usage] (#usage)
+  [Installation] (#installation)
+  [License] (#license)
+  [Contributors] (#contributors)
+  [Questions] (#Questions)
 
   ## Usage
   
     GIVEN a command-line application that accepts user input
     WHEN I am prompted for information about my application repository
-    THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+    THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage,   License, Contributing, Tests, and Questions
     WHEN I enter my project title
     THEN this is displayed as the title of the README
     WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
@@ -36,7 +36,7 @@
   ISC License
 
   ## Contributors
-  -Reshma Paul
+  - Reshma Paul
 
   ## Questions
   If you have any Questions,
