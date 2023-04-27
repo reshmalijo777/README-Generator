@@ -2,11 +2,11 @@
  ## Description
   This is a README Generator that helps us to quickly create a professional README for a new project. The generator collects user input and create a Readme markdown with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-  Video Demonstration
+  -[Video Demonstration]
  (https://user-images.githubusercontent.com/128992593/234772101-89e73dc7-4630-423a-9c48-9ffdbdb58a94.webm)
 
   ## Table Of Contents
-  [Usage](#usage)
+  [Usage](#usage \br)
   [Installation](#installation)
   [License](#license)
   [Contributors](#contributors)
