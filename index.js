@@ -56,7 +56,7 @@ const questions = [
 
 function writeToFile(fileName, data) {
     fs.appendFile(`${fileName}.md`, generateMarkdown(data), (err)=>
-    err? console.log(err):console.log("README file Generated")
+    err? console.log(err):console.log("README file is Generated")
     )}
 
 function init() {
