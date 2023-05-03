@@ -41,7 +41,7 @@
 
   ## License
 
-  MIT License
+  [MIT License](https://opensource.org/license/mit/)
 
   ## Contributors
   - Reshma Paul
