@@ -41,7 +41,7 @@
 
   ## License
 
-  ISC License
+  MIT License
 
   ## Contributors
   - Reshma Paul
