@@ -14,29 +14,35 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ##Description
+  ## Description
+
   ${data.description}
 
-  ##Table Of Contents
-  -[usage](#usage)
-  -[Installation](#installation)
-  -[license](#license)
-  -[contributors](#contributors)
-  -[Questions](#Questions)
+  ## Table Of Contents
 
-  ##Usage
+  - [usage](#usage)
+  - [Installation](#installation)
+  - [license](#license)
+  - [contributors](#contributors)
+  - [Questions](#Questions)
+
+  ## Usage
   ${data.usage}
 
-  ##Installation
+  ## Installation
+
   To run this project we need ${data.installation}
 
-  ##License
-  ${data.license}
+  ## License
 
-  ##Contributors
+  - [${data.license}](https://opensource.org/license/mit/)
+
+  ## Contributors
+
   ${data.contributors}
 
-  ##Questions
+  ## Questions
+
   If you have any Questions, contact me at ${data.email}
 
 `;

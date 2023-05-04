@@ -1,27 +1,33 @@
 # README Generator
 
-  ##Description
-  This is a README Generator Project
+  ## Description
 
-  ##Table Of Contents
-  -[Usage](#usage)
-  -[Installation](#installation)
-  -[License](#license)
-  -[Contributors](#contributors)
-  -[Questions](#Questions)
+  Read project Readme file
 
-  ##Usage
-  Read the readme file in project
+  ## Table Of Contents
 
-  ##Installation
-  To run this project we need to Read the Readme file in the project
+  - [usage](#usage)
+  - [Installation](#installation)
+  - [license](#license)
+  - [contributors](#contributors)
+  - [Questions](#Questions)
 
-  ##License
-  ISC License
+  ## Usage
+  Read project Readme file
 
-  ##Contributors
-  Reshma Paul
+  ## Installation
 
-  ##Questions
+  To run this project we need Read project Readme file
+
+  ## License
+
+  - [MIT License](https://opensource.org/license/mit/)
+
+  ## Contributors
+
+  reshma paul
+
+  ## Questions
+
   If you have any Questions, contact me at snowley777@gmail.com
 
