@@ -3,6 +3,9 @@
  ## Description
 
   This is a README Generator that helps us to quickly create a professional README for a new project. The generator collects user input and create a Readme markdown with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
+  
+  ![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
   * [Video Demonstration] <br>
   [Demo-Video.webm](https://user-images.githubusercontent.com/128992593/236108768-dc4896fa-7511-4084-8bb0-7738da888f94.webm)
